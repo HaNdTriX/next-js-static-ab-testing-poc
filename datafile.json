@@ -1,0 +1,31 @@
+{
+  "experiments": {
+    "experiment-1": {
+      "id": "experiment-1",
+      "percentage": 90,
+      "variations": [
+        {
+          "id": "0",
+          "percentage": 50
+        },
+        {
+          "id": "1",
+          "percentage": 50
+        }
+      ]
+    },
+    "experiment-2": {
+      "id": "experiment-2",
+      "percentage": 100,
+      "variations": [
+        {
+          "id": "0",
+          "percentage": 100
+        }
+      ],
+      "audience": {
+        "==": [{ "var": "language" }, "de-DE"]
+      }
+    }
+  }
+}
